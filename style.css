@@ -65,7 +65,9 @@ tooltip {
 }
 
 #clock {
-  margin-left: 8.75px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 20px;
 }
 
 .hidden {
@@ -90,4 +92,18 @@ tooltip {
 
 #custom-voxtype.recording {
   color: #a55555;
+}
+
+/* Fan module - positioned between workspaces and clock */
+#custom-fans {
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 4px;
+}
+
+/* GPU/CPU/Memory combined module - positioned between clock and system icons */
+#custom-gpus-cpu {
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 3px;
 }
